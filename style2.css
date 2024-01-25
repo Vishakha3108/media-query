@@ -1,0 +1,116 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.footer {
+    background-color: black;
+    height: 500px;
+    margin-top: 370px;
+    display: flex;
+    bottom: 0%;
+}
+.one {
+   width: 500px;
+   margin: 120px 40px 0px 80px;
+}
+h3 {
+    color: white;
+    font-size: 25px;
+}
+p {
+    color: rgb(172, 156, 156);
+    margin-top: 30px;
+    font-size: 20px;
+}
+.two {
+    width: 100px;
+    margin: 120px 0px 0px 180px;
+ }
+ .two a {
+    text-decoration: none;
+    color: rgb(172, 156, 156);
+    font-size: 20px;
+    margin-top: 50px;
+}
+ .three {
+    width: 300px;
+    margin: 120px 40px 0px 200px;
+ }
+ .three a {
+    text-decoration: none;
+    color: rgb(172, 156, 156);
+    font-size: 20px;
+    margin-top: 50px;
+}
+ .four {
+    width: 550px;
+    margin: 120px 40px 0px 80px;
+ }
+ .four input {
+    margin-top: 30px;
+    /* height: 45px; */
+    border-radius: 5px;
+    padding: 18px 150px 18px 18px;
+    font-size: 18px;
+    color: rgb(172, 156, 156);
+ }
+ .four button {
+    margin-top: 10px;
+    padding: 15px 155px 15px 155px;
+    background-color: #173ff1;
+    border-radius: 5px;
+    color: white;
+    font-size: 20px;
+ }
+ @media  screen and (max-width: 500px) {
+  .footer {
+      height: 900px;
+      margin-top: 30px;
+      display: flex;
+      flex-direction: column;
+      bottom: 0%;
+  }
+  .one {
+     width: 330px;
+     margin: 20px 10px 0px 60px;
+  }
+  h3 {
+      font-size: 20px;
+  }
+  p {
+      margin-top: 20px;
+      font-size: 16px;
+  }
+  .two {
+      margin: 20px 0px 0px 60px;
+   }
+   .two a {
+      font-size: 14px;
+      margin-top: 20px;
+  }
+   .three {
+      margin: 20px 10px 0px 60px;
+   }
+   .three a {
+      font-size: 14px;
+      margin-top: 20px;
+  }
+   .four {
+      margin: 20px 10px 0px 60px;
+   }
+   .four input {
+      margin-top: 12px;
+      border-radius: 5px;
+      padding: 13px 100px 13px 13px;
+      font-size: 12px;
+   }
+   .four button {
+      font-size: 14px;
+      margin-top: 5px;
+      padding: 14px 100px 14px 100px;
+      border-radius: 5px;
+   }
+ }
+   
+ 

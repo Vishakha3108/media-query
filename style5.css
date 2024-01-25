@@ -1,0 +1,99 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.main {
+    margin-left: 150px;
+    display: flex;
+}
+.h{
+    margin-top: 250px;
+    font-size: 70px;
+    font-weight: 500;
+}
+.hh {
+    font-size: 120px;
+    font-weight: 700;
+    color: #2b6fee;
+}
+.p {
+    margin-top: 50px;
+    font-size: 40px;
+    color: #2b6fee;
+    font-weight: 400;
+}
+.banklogo {
+    margin-top: 50px;
+    height: 180px;
+}
+
+.p2 {
+    font-size: 40px;
+    width: 1080px;
+    margin-top: 60px;
+}
+.button2 {
+ background-color: #2b6fee;
+ color: white;
+ padding: 25px;
+ width: 350px;
+ margin-top: 50px;
+ font-size: 35px;
+ font-weight: 700;
+border: none;
+border-radius: 5px;
+}
+.video {
+     height: 1100px;
+     margin-left: 180px;
+     margin-top: 130px;
+}
+@media screen and (max-width: 500px) {
+    .main {
+        margin-left: 50px;
+        flex-direction: column;
+    }
+    .h{
+        margin-top: 20px;
+        font-size: 45px;
+    }
+    .hh {
+        font-size: 60px;
+        font-weight: 600;
+        color: #2b6fee;
+    }
+    .p {
+        margin-top: 20px;
+        font-size: 25px;
+        color: #2b6fee;
+        font-weight: 400;
+    }
+    .banklogo {
+        margin-top: 20px;
+        height: 100px;
+    }
+    
+    .p2 {
+        font-size: 20px;
+        width: 350px;
+        margin-top: 40px;
+        word-spacing: 1px;
+    }
+    .button2 {
+     background-color: #2b6fee;
+     color: white;
+     padding: 10px;
+     width: 220px;
+     margin-top: 40px;
+     font-size: 20px;
+     font-weight: 600;
+     border: none;
+    }
+    .video {
+         height: 410px;
+         margin-left: 1px;
+         margin-top: 10px;
+    }
+    
+}

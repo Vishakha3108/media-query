@@ -1,0 +1,59 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.section {
+    background-color: black;
+    height: 900px;
+}
+h2 {
+    color: #4d28f1;
+    font-size: 130px;
+    text-align: center;
+    padding-top: 200px;
+}
+.py {
+    color: white;
+    font-size: 80px;
+    text-align: center;
+    padding-top: 50px;
+}
+.pyy {
+    color: white;
+    font-size: 80px;
+    text-align: center;
+    padding-top: 20px;
+}
+.pyyy {
+    color: white;
+    font-size: 80px;
+    text-align: center;
+    padding-top: 20px;
+}
+@media  screen and (max-width: 500px) {
+    .section {
+        background-color: white;
+        height: 1200px;
+    }
+    h2 {
+        font-size: 50px;
+        text-align: center;
+    }
+    .py {
+        color: black;
+        font-size: 32px;
+        text-align: center;
+    }
+    .pyy {
+        color: black;
+        font-size: 32px;
+        text-align: center;
+    }
+    .pyyy {
+        color: black;
+        font-size: 32px;
+        text-align: center;
+    } 
+    
+}
